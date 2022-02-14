@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Copperplate Gothic';
+}
+body{
+    background-color: #161111;
+}
+
+/* first secton */
+
+.bg_first{
+    width: auto;
+    height: 125vh;
+    background-image: url("../img/pexels-billel-moula-5405182.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+nav .collapse ul  {
+    margin: auto;
+    padding-top: 20px;
+}
+nav .collapse a {
+    color: white;
+    padding-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+nav .collapse a:hover {
+    color: #777;
+    }
+nav .collapse a .loc{
+    width: 55px;
+    margin-top: -15px;   
+}
+nav .collapse a .search{
+    width: 20px;
+    margin-right: 5px;
+}
+.bg_first .con_first{
+    padding-top: 150px;
+}
+.bg_first h1,.bg_first h5{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+
+}
+/* secend secton */
+
+.explore .con_explore{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+.explore .con_explore h1,.explore .con_explore p{
+    font-weight: lighter;
+
+}
+.explore .img_explore{
+}
+.explore .img_explore img{
+    width: 350px;
+    
+}
+.explore .btn_see{
+    text-align: center;
+}
+
+.explore .btn_see img{
+    width: 90px;
+    padding-bottom: 70px;
+}
+.brower_gallary .con_gallary {
+    padding-top: 50px;
+}
+.brower_gallary .con_gallary img{
+    width: 97%;
+    padding-left: 20px;
+}
+.brower_gallary .con_gallary h1,.brower_gallary .con_gallary p{
+    color:#D9D2D2;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+.brower_gallary .con_gallary p{
+    font-size: 20px; 
+    padding-bottom: 100px;
+}
+.journal .con_journal {
+    text-align: center;
+    color: #D9D2D2;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.journal .con_journal h1,.journal .con_journal p{
+    font-weight: lighter;
+}
+.journal .img_journal{
+    justify-content: center;
+}
+
+.journal .img_journal img{
+    width:400px;
+    height: 230px;
+    text-align: center;
+    justify-items: center;
+}
+.journal .img_journal .con_img{
+    text-align: center;
+    color: #D9D2D2;
+    padding-top: 40px;
+}
+.journal .img_journal .con_img p,.journal .img_journal .con_img h4{
+    font-weight: lighter;
+}
+footer{
+    background-image: url("../img/pexels-jakub-novacek-924824.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    margin-top: -300px;
+}
+footer p{
+    color: #D9D2D2;
+    text-align: center;
+    padding-top: 470px;
+}
+
